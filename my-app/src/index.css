@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+li {
+  border-top:1px solid #ccc;
+  border-bottom:1px solid #ccc;
+  padding:10px;
+  box-sizing: border-box;
+}
+li:first-child{
+  border-bottom: 0;
+}
+
+li span {
+  right:10px;
+  float:right;
+}
